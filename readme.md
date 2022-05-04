@@ -1,5 +1,7 @@
 <h1>TypeScript</h1>
 
+#
+
 * Linguagem orientada a objetos fortemente tipada
 
 * Precisa ser convertido para JavaScript
@@ -17,4 +19,14 @@
         node (nome do arquivo) 
 
 
+Sintaxe
 
+#
+
+* Especificar o tipo de variável
+
+        let nomeVarialvel: TypeAnnotation = valor;  // typeAnnotation: number,string,boolean,etc..
+
+* Exemplos
+
+        
