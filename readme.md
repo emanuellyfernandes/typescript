@@ -14,7 +14,7 @@
 
         cd (nome da pasta)
         ls (para ver o arquivo dentro a pasta)
-        tsc (nome do arquivo) 
+        node (nome do arquivo) 
 
 
 
