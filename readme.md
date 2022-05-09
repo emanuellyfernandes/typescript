@@ -1,6 +1,5 @@
-<h1>TypeScript</h1>
+<h1> TypeScript </h1>
 
-#
 
 * Linguagem orientada a objetos fortemente tipada
 
@@ -22,18 +21,19 @@
         clear ou crtl+shift+p (para limpar o terminal)
         cd.. (para voltar uma pasta)
 
+<br>
 
 
-Sintaxe
+<h1> Sintaxe </h1>
 
 #
 
-* Especificar o tipo de variável
+<h3> Especificar o tipo de variável </h3>
 
         let nomeVarialvel: TypeAnnotation = valor;  // typeAnnotation: number,string,boolean,etc..
 
 
-* Number / Bigint
+<h3> Number / Bigint </h3>
 
 
         let nomeVariavel:numer = valor;
@@ -41,12 +41,12 @@ Sintaxe
         let nomeVariavel:bigint = valor (seguido com'n')
 
 
-* Variáveis
+<h3>Variáveis </h3>
 
         let nomeVariavel:string = valor;   // string com letra minuscula
 
 
-* Arrays
+<h3> Arrays </h3>
 
         let nomeVariavel:type[] = ['elemento1' , 'elemento2'];
         ou 
@@ -55,17 +55,17 @@ Sintaxe
         let nomeVariavel:type[] = new Array('elemento1','elemento2')
 
 
-* Tuple
+<h3> Tuple </h3>
 
 - Coleção Heterogenea de valores
 - Armaenamento de campos  de diferentes tipos
 - Podem ser passadas como parametros para funções
 - Considerada array com numeros fixos de elementos
 
-        let nomeTupla = [valor1, valor2, valor3];
+          let nomeTupla = [valor1, valor2, valor3];
 
 
-* Enums
+<h3> Enums </h3>
 
 - Enumerar os valores
 - Estruturas de dados não ordenadas
@@ -84,6 +84,18 @@ Sintaxe
                 ...
         }
 
+
+<h3> Type - Any </h3>
+
+- Padrinho dos tipos
+- Any é padrao no TypeScript(se nao tipar, será any automaticamente)
+- Evitar ao máximo usar o tipo 'any'
+
+
+<h3>Type - Unknown</h3>
+
+- Não sbe qual tipo definir
+- Melhor doque any
 
 
 
