@@ -1,4 +1,4 @@
-<h1 text align:"center"> TypeScript </h1>
+<h1 style:"text-align:center"> TypeScript </h1>
 
 
 * Linguagem orientada a objetos fortemente tipada
