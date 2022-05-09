@@ -1,4 +1,4 @@
-<h1> TypeScript </h1>
+<h1 text align:"center"> TypeScript </h1>
 
 
 * Linguagem orientada a objetos fortemente tipada
@@ -26,7 +26,6 @@
 
 <h1> Sintaxe </h1>
 
-#
 
 <h3> Especificar o tipo de variável </h3>
 
