@@ -1,4 +1,4 @@
-<h1 style:"text-align:center"> TypeScript </h1>
+<h1 align="center"> TypeScript 💥</h1>
 
 
 * Linguagem orientada a objetos fortemente tipada
@@ -95,6 +95,7 @@
 
 - Não sbe qual tipo definir
 - Melhor doque any
+
 
 
 
