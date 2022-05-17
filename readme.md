@@ -126,7 +126,7 @@
         - É um tipo 
         
         - O valor de undefined será um valor primitivo, que será usado quando for 
-           atribuido um valor a uma variavel
+          atribuido um valor a uma variavel
         
         - Undefined indica ausencia da própia variável
         
@@ -147,6 +147,7 @@
 - object(minusculo) representa qualquer valor que nao seja primitivo 
 - Object (maiusculo) descreve a funcionalidade disponivel em todos os objetos 
 - {} os que não tem propiedades propias
+
 
 
 
