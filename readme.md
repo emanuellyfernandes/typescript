@@ -113,7 +113,7 @@
         - É um objeto
 
         - O valor de null será um valor primitivo, mas que representa
-        referencia nula, vazia ou inexistente
+          referencia nula, vazia ou inexistente
 
         - Null indica ausência de um valor para uma variável
 
@@ -126,7 +126,7 @@
         - É um tipo 
         
         - O valor de undefined será um valor primitivo, que será usado quando for 
-        atribuido um valor a uma variavel
+           atribuido um valor a uma variavel
         
         - Undefined indica ausencia da própia variável
         
