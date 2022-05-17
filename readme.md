@@ -96,6 +96,45 @@
 - Não sbe qual tipo definir
 - Melhor doque any
 
+<h3>Type - Void</h3>
+
+- Oposto do tipo Any
+- Tipo void é uma função que nao retorna nenhum valor 
+
+        function exemploFuncao(mensagem):void{}
+
+
+<h3>Null x Undefined</h3>
+
+- Null 
+        *Pode ser atribuido a uma variavel. Porém, não aponta a nenhum objeto
+        *É um objeto
+        *O valor de null será um valor primitivo, mas que representa referencia nula, vazia ou inexistente
+        *Null indica ausência de um valor para uma variável
+        *Null é convertido em 0 durante execução de operações primitivas
+
+- Undefined
+        *Declara uma variavel. Porém, não atribui ainda um valor.
+        *É um tipo 
+        *O valor de undefined será um valor primitivo, que será usado quando for atribuido um valor a uma variavel
+        *Undefined indica ausencia da própia variável
+        *Undefined é convertido em NaN (not a number) durante a execução de operações primitivas
+
+
+<h3>Type - Never</h3>
+
+- Não contém valores
+- Não podemos atribuir valor ao tipo  never
+- Usamos quando queremos representar um retorno de função que gera erro
+
+<h3>Type - Object</h3>
+
+- Representa valores que não estão em tipos primitivos como:number,string,boolean,bigint,num,undefined
+- melhor forma de representar, agrupar e transmitir dados
+- pode ser anonimos ou nomeados
+- object(minusculo) representa qualquer valor que nao seja primitivo 
+- Object (maiusculo) descreve a funcionalidade disponivel em todos os objetos 
+- {} os que não tem propiedades propias
 
 
 

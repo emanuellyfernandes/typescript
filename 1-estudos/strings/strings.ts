@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ==> Exemplo usando Sigle Quotes(aspas simples)
+//* ==> Exemplo usando Sigle Quotes(aspas simples)
 
 let animal1:string = 'Panda';
 console.log(animal1);
@@ -10,7 +10,7 @@ console.log(animal1);
 
 
 
-// ==> Exemplo usando Double Quotes(aspas duplas)
+//* ==> Exemplo usando Double Quotes(aspas duplas)
 
 let animal2:string = "Elefante";
 console.log(animal2);
@@ -22,7 +22,7 @@ console.log(animal2);
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// ==> Exemplo usando Back-Ticks(Acento grave)
+//* ==> Exemplo usando Back-Ticks(Acento grave)
 
 let nomePessoa:string = 'Emanuelly'
 let nomeEmpresa:string = 'Zortea'

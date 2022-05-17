@@ -1,0 +1,29 @@
+"use strict";
+function olaMundo() {
+    console.log('Olá Mundo');
+}
+;
+//--------Outra forma de criar funções com arrow function
+const olaMundo2 = () => {
+    console.log('Olá Mundoo');
+};
+olaMundo();
+olaMundo2();
+//---------------------------------
+function logError(errorMessage) {
+    console.log(errorMessage);
+}
+;
+logError('Required field - Name:');
+//----------------------------------------
+const logError2 = (errorMessage) => {
+    console.log(errorMessage);
+};
+logError2('Required field - Name:');
+//-----------------------------------------------
+//==> void em variaveis
+let variavelEx;
+//variavelEx = 1;          ->inválida
+variavelEx = null;
+variavelEx = undefined;
+console.log(variavelEx);

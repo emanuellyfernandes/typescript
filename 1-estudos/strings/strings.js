@@ -1,15 +1,15 @@
 "use strict";
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-// ==> Exemplo usando Sigle Quotes(aspas simples)
+//* ==> Exemplo usando Sigle Quotes(aspas simples)
 let animal1 = 'Panda';
 console.log(animal1);
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-// ==> Exemplo usando Double Quotes(aspas duplas)
+//* ==> Exemplo usando Double Quotes(aspas duplas)
 let animal2 = "Elefante";
 console.log(animal2);
 /// mesma coisa
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-// ==> Exemplo usando Back-Ticks(Acento grave)
+//* ==> Exemplo usando Back-Ticks(Acento grave)
 let nomePessoa = 'Emanuelly';
 let nomeEmpresa = 'Zortea';
 let detalhePessoa = `${nomePessoa} trabalha na empresa ${nomeEmpresa}.`;

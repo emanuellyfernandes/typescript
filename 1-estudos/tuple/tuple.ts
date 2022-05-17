@@ -2,7 +2,7 @@
 
 import { NumericLiteral } from "typescript";
 
-// ==> Exemplo Tupla
+//* ==> Exemplo Tupla
 
 let pessoa: [string, string, number];
 
@@ -20,7 +20,7 @@ console.log(pessoa2);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ==> Exemplo Tupla ( Acessando valor pela posição )
+//* ==> Exemplo Tupla ( Acessando valor pela posição )
 
 
 let pessoa1: [string, string, number];
@@ -33,7 +33,7 @@ console.log(pessoa1[1]);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ==> Exemplo Tupla com labels (declara o primeiro elemento como string e o ultimo como string )
+//* ==> Exemplo Tupla com labels (declara o primeiro elemento como string e o ultimo como string )
 
 let listaFrutas:[string, ...string[]] = ['🍌', '🍍', '🍎', '🍓'];
 
@@ -45,7 +45,7 @@ console.log(...listaFrutas);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ==> Exemplo Tupla ( lista heterogenea )
+//* ==> Exemplo Tupla ( lista heterogenea )
 
 let listaFrutas2: [Number, boolean, ...string[]] = [5, true, ...listaFrutas];
 console.log(listaFrutas2);
@@ -54,7 +54,7 @@ console.log(listaFrutas2);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ==> Exemplo Tupla ( Função )
+//* ==> Exemplo Tupla ( Função )
 
 
 function listaPessoas(nomes:string[], idades:number[]){
@@ -71,7 +71,7 @@ console.log(resultado);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// ==> Exemplo Tupla 
+//* ==> Exemplo Tupla 
 
 type Nome = 
         | [primeiroNome: string, sobrenome: string]
