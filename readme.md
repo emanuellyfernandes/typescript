@@ -108,24 +108,29 @@
 
 - Null 
 
-        * Pode ser atribuido a uma variavel. Porém, não aponta a nenhum objeto
+        - Pode ser atribuido a uma variavel. Porém, não aponta a nenhum objeto
 
-        * É um objeto
+        - É um objeto
 
-        * O valor de null será um valor primitivo, mas que representa
+        - O valor de null será um valor primitivo, mas que representa
         referencia nula, vazia ou inexistente
 
-        * Null indica ausência de um valor para uma variável
+        - Null indica ausência de um valor para uma variável
 
-        * Null é convertido em 0 durante execução de operações primitivas
+        - Null é convertido em 0 durante execução de operações primitivas
 
 - Undefined
 
-        * Declara uma variavel. Porém, não atribui ainda um valor.
-        * É um tipo 
-        * O valor de undefined será um valor primitivo, que será usado quando for atribuido um valor a uma variavel
-        * Undefined indica ausencia da própia variável
-        * Undefined é convertido em NaN (not a number) durante a execução de operações primitivas
+        - Declara uma variavel. Porém, não atribui ainda um valor.
+        
+        - É um tipo 
+        
+        - O valor de undefined será um valor primitivo, que será usado quando for 
+        atribuido um valor a uma variavel
+        
+        - Undefined indica ausencia da própia variável
+        
+        - Undefined é convertido em NaN (not a number) durante a execução de operações primitivas
 
 
 <h3>Type - Never</h3>
