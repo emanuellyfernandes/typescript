@@ -107,6 +107,7 @@
 <h3>Null x Undefined</h3>
 
 - Null 
+
         *Pode ser atribuido a uma variavel. Porém, não aponta a nenhum objeto
         *É um objeto
         *O valor de null será um valor primitivo, mas que representa referencia nula, vazia ou inexistente
@@ -114,6 +115,7 @@
         *Null é convertido em 0 durante execução de operações primitivas
 
 - Undefined
+
         *Declara uma variavel. Porém, não atribui ainda um valor.
         *É um tipo 
         *O valor de undefined será um valor primitivo, que será usado quando for atribuido um valor a uma variavel
