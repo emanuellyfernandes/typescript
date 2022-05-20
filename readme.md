@@ -148,6 +148,27 @@
 - Object (maiusculo) descreve a funcionalidade disponivel em todos os objetos 
 - {} os que não tem propiedades propias
 
+<h3>If..Else</h3>
+
+- Se a cndição for verdadeira, ela executa o código, se não ela nao executa
+
+<h3> While</h3>
+
+                while(condição){
+                        faça alguma coisa
+                }
+
+<h3> Do While</h3>
+
+                do{
+                        faça alguma coisa
+                }wile(condição)
+
+<h3>Funções</h3>
+
+                function nome (parâmetro: tipo, parametro: tipo): retornoDoTipo{
+                        lógica da função
+                }
 
 
 

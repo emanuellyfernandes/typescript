@@ -82,7 +82,7 @@ interface Pessoa4{
 
 function on1(pessoas:Pessoa4){
     return(
-        'nome: ' + pessoas.nome + 'sobrenome: ' + pessoas.sobrenome + 'linguagem: ' + pessoas.linguagem
+        'nome: ' + pessoas.nome + ' sobrenome: ' + pessoas.sobrenome + ' linguagem: ' + pessoas.linguagem
     );
 };
 
@@ -90,4 +90,54 @@ console.log(on1({nome: 'Emanuelly' , sobrenome:'Fernandes'}));
 
 
 //////////////////////////////////////////////////////////////////////////////////////
+
+
+interface Pessoa5{
+    nome: string;
+    sobrenome:string;
+    readonly linguagem:string;   //?  readonly significa que agnt nao vai poder fazer nenhuma modificação
+}
+
+function on2(pessoal:Pessoa5){
+    return(
+        'nome: ' + pessoal.nome + ' sobrenome: ' + pessoal.sobrenome + ' linguagem: ' + pessoal.linguagem
+    );
+};
+
+console.log(on2({nome: 'Emanuelly' , sobrenome:'Fernandes', linguagem:'java'}));
+
+
+///////////////////////////////////////////////////////
+
+interface Mae{
+    nome:string;
+}
+
+interface Pai{
+    sobrenome:string;
+}
+
+interface Filha extends Mae , Pai{
+    idade:number;
+}
+
+const filha: Filha = {
+    nome:'Emanuelly',
+    sobrenome:'Fernandes',
+    idade: 25
+}
+
+console.log(filha);
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
 

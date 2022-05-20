@@ -1,0 +1,1 @@
+console.log('Você recebeu um desconto de: ', desconto);
